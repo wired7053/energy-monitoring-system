@@ -1,0 +1,46 @@
+# General
+*.log
+*.out
+*.pid
+*.pyc
+__pycache__/
+*.swp
+
+# Environment
+.env
+*.env
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Python
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Go
+/vendor/
+*.exe
+*.test
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfstate*
+
+# Kubernetes
+*.kube
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db# Ignore sensitive environment files
+.env
+# Ignore temporary data files
+/data/datasets/*.csv
